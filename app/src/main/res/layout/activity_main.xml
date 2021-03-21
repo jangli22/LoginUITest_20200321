@@ -20,8 +20,7 @@
         <ImageView
             android:layout_width="200dp"
             android:layout_height="120dp"
-            android:src="@drawable/lostArk_logo"
-
+            android:src="@drawable/lostark_logo" />
 
 
 
@@ -56,6 +55,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="자동 로그인"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
 
     <LinearLayout
         android:layout_width="match_parent"
